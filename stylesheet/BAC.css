@@ -1,0 +1,176 @@
+﻿#container {
+    background-color: whitesmoke
+}
+
+
+section {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+    margin: 10px;
+    justify-content: space-between
+}
+
+section > * {
+    border: outset 2px;
+    background-color: white
+}
+
+#top {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    border: outset 2px
+}
+
+#left {
+    padding: 10px;
+    margin: 3px;
+    width: 400px;
+    height: 540px;
+    border: outset 2px
+}
+
+#content {
+    padding: 10px;
+    margin: 3px;
+    width: 800px;
+    height: 540px;
+    border: outset 2px
+}
+
+#ad {
+    padding: 10px;
+    margin: 3px;
+    height: 270px;
+    background-color: white;
+    border: outset 2px
+}
+
+#footer {
+    background-color: dimgrey;
+    color: white;
+    padding: 10px;
+    margin: 3px
+}
+
+#top {
+    display: flex;
+    margin: 0
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+li {
+    padding: 5px;
+    margin: 5px
+}
+
+ol {
+    list-style-type: none;
+    justify-content: center
+}
+
+ul li {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px
+}
+
+ol li {
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 5px
+}
+h1 {
+    text-align: center;
+    color: orange
+}
+
+h4 {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial;
+    text-align: center;
+    width: 35%
+}
+
+#current  {
+    background-color: yellow
+}
+
+a:hover {
+    background-color: yellow
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+table  {
+    width: 50%;
+
+}
+
+table :nth-child(2)  {
+    color: orange
+}
+
+th  {
+    font-size: 20px;
+    background-color: lightgray
+}
+
+.purple {
+    background-color: purple
+}
+
+.green {
+    background-color: lawngreen
+}
+
+.yellow {
+    background-color: yellow
+}
+
+.red {
+    background-color: red
+}
+
+.blue {
+    background-color: blue
+}
+
+#key {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+ #key > *  {
+     margin: 5px;
+     color: white;
+     padding: 3px
+ }
+
+
+
+@media (max-width: 600px) {
+
+    ul {
+        flex-direction: column
+    }
+
+    section  {
+        flex-direction:column
+    }
+}

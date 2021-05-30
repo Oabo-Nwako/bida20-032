@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link href="stylesheet/BAC.css" rel="stylesheet" />
+    <style>
+
+        #ContentLogo   {
+            margin-left: 280px
+        }
+
+        form div {
+            display: flex;
+            margin:15px
+        }
+
+        label {
+            flex-basis: 15%
+        }
+
+        input {
+            flex-basis: 15%;
+        }
+
+        button {
+            margin-left: 50px;
+            margin-right: 50px;
+            width: 200px;
+            height: 25px;
+            background-color: orange;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <div id="logo"><img src="images/ThunderCloudLogo.png" alt="Logo" width="100" height="70"></div>
+            <div id="pages">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="Lifestyle.html">Lifestyle</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li id="current"><a href="#">Connect With Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+            <img src="images/Agree-2.jpg" alt="Register" width="100%">
+        </div>
+        <div><h1>Latest Updates</h1></div>
+        <section>
+            <div id="left">
+                <h3>Navigation</h3>
+                <ol>
+                    <li><a href="Connect with us.html">HOME</a></li>
+                    <li><a href="Updates.html">Updates</a></li>
+                    <li><a href="Travel Offers.html">Travel Offers</a></li>
+                    <li id="current"><a href="#">Register Now</a></li>
+                </ol>
+            </div>
+            <div id="content">
+                <div id="ContentLogo">
+                    <img src="images/Logo.png" alt="content banner" width="200">
+                </div>
+                <h2>ThunderCloud:Register For Newsletter</h2>
+                <form action="thankyou.html">
+                    <div>
+                        <label class="label">First Name</label>
+                        <input type="text" name="first name"/>
+                    </div>
+                    <div>
+                        <label class="label">Last Name</label>
+                        <input type="text" name="Last name"/>
+                    </div>
+                    <div>
+                        <label class="label">E-mail</label>
+                        <input type="text" name="E-mail"/>
+                    </div>
+                    <div>
+                        <label class="label">Country</label>
+                        <input type="text" name="Country"/>
+                    </div>
+                    <div>
+                        <label class="label">Region</label>
+                        <input type="text" name="Region"/>
+                    </div>
+                    <div>
+                        <label class="label">Newsletter type:</label>
+                        Business:<input type="checkbox" name="Business" value="Business" />
+                        Music:<input type="checkbox" name="Music" value="Music" />
+                        Politics:<input type="checkbox" name="Politics" value="Politics" />
+                    </div>
+                    <button>Submit</button>
+                    <button>Cancel</button>
+                </form>
+            </div>
+        </section>
+        <div id="ad">
+            <img src="images/Beatles.jpg" width="70%" />
+        </div>
+        <div id="footer">
+            <h3>More information:</h3>
+            <h3>Telephone: +267 74623977</h3>
+            <h3>E-mail Address: bida20-032@thuto.bac.ac</h3>
+        </div>
+    </div>
+</body>
+</html>
